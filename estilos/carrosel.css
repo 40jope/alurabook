@@ -1,0 +1,161 @@
+.titulo__secundarios {
+    font-weight: 700;
+    font-size: 1.13rem;
+    text-align: center;
+    text-transform: uppercase;
+    background: var(--branco-principal);
+    color: var(--laranja-texto);
+    padding: 1.25rem 0 0.5rem 0;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 0.5rem 0;
+}
+
+.card {
+    background: var(--branco-principal);
+    margin: 1.25rem 1.5rem;
+    padding: 1rem;
+    border-radius: 0.6250rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card__descricao {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.descricao__estrelinhas {
+    margin-bottom: 1rem;
+}
+
+.subtitulo__card {
+    color: var(--laranja-texto);
+    font-weight: 700;
+}
+
+.titulo__card {
+    color: var(--azul);
+    font-size: 1.13rem;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+.texto__card {
+    color: var(--preto-gradiente);
+    font-size: 0.8750rem;
+    font-weight: 400;
+}
+
+.card__botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes {
+    display: flex;
+}
+
+.botao__ancora {
+    background: var(--laranja-texto);
+    color: var(--branco-principal);
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem 2.25rem;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .titulo__secundarios {
+        font-size: 1.53rem;
+        padding: 3rem 0 1rem 0;
+    }
+
+    .swiper {
+        text-align: center;
+        margin: 2rem 7rem 0 7rem;
+    }
+
+    .swiper-slide img {
+        width: 70%;
+        margin: 0;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        display: block;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    .swiper-pagination {
+        margin-bottom: 1rem;
+    }
+
+    .swiper-wrapper {
+        padding: 4rem 0;
+    }
+
+    .card {
+        width: 50%;
+        margin: 0 auto 3rem auto;
+        padding: 1.5rem;
+    }
+
+    .texto__card {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+
+    .titulo__secundarios {
+        font-size: 2rem;
+    }
+
+    .carrosel__container {
+        display: flex;
+        gap: 3.75rem;
+        padding: 3rem 0;
+    }
+
+    .swiper {
+        text-align: center;
+        width: 50%;
+        margin: 0 0 1rem auto;
+    }
+
+    .swiper-slide img {
+        width: 65%;
+    }
+
+    .swiper-pagination {
+        margin: 0;
+        padding-bottom: 2.23rem;
+    }
+
+    .swiper-wrapper {
+        padding: 0;
+    }
+
+    .card {
+        align-self: center;
+        width: 30%;
+        margin: 0 auto 0 0;
+    }
+
+    .subtitulo__card {
+        color: var(--laranja-texto);
+        font-weight: 700;
+        font-size: 2rem;
+    }
+}

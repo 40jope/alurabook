@@ -1,0 +1,25 @@
+@import url(./estilos/cabecalho.css);
+@import url(./estilos/banner.css);
+@import url(./estilos/carrosel.css);
+@import url(./estilos/topicos.css);
+@import url(./estilos/contato.css);
+@import url(./estilos/rodape.css);
+
+:root {
+    --font-principal:  'Poppins', sans-serif;
+    --font-secundaria: font-family: 'Josefin Sans', sans-serif;
+    --background: #EBECEE;
+    --branco-principal: #ffffff;
+    --azul-gradiente: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --azul: #002F52;
+    --laranja-texto: #EB9B00;
+    --preto-gradiente: color: rgba(0, 0, 0, 0.85);
+    --cinza: #858585;
+    --cinza-escuro: #474646;
+}
+
+body {
+    background: var(--background);
+    font-family: var(--font-principal)
+}
+
